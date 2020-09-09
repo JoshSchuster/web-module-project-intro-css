@@ -25,6 +25,8 @@ html{
 
 body{
     font-size: 2rem;
+    word-spacing: .4rem;
+
 }
 
 #topPageButtons{
@@ -74,6 +76,37 @@ header nav a {
 #firstLine{
     font-size: 10rem;
     font-family: chelseaMarket;
+}
+
+#parkBackground{
+    margin: 2.5% 2.5%;
+    background: #DDB9A3;
+    padding: 3rem;
+    text-align: center;
+}
+
+#fireRestrictions img{
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin: auto auto;
+}
+
+#fireRestrictions > p{
+    text-align: center; 
+    margin: 0 40% 5% 40%;
+}
+
+#suggestReservations img{
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin: auto auto;
+}
+
+#suggestReservations > p{
+    text-align: center; 
+    margin: 0 40% 5% 40%;
 }
 
 #footerImage img{
