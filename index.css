@@ -28,12 +28,11 @@ body{
 }
 
 header nav{
-    width:80%;
     padding: 2rem;
     margin:0 auto;
 }
 header nav a {
-    margin: 0 8%;
+    margin: 0 10%;
     padding: 2rem;
     display: inline-block;
     border-radius: 2rem;
@@ -52,4 +51,20 @@ header nav a {
 
 .thirdButton a{
     background: #FFCD69;
+}
+
+footer nav{
+    padding: 2rem;
+    margin:0 auto;
+    background: #F9E7DC;
+}
+
+footer nav a {
+    margin: 0 10%;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    color: white;
 }
