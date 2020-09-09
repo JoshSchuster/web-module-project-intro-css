@@ -27,7 +27,7 @@ body{
     font-size: 2rem;
 }
 
-header nav{
+#topPageButtons{
     padding: 2rem;
     margin:0 auto;
 }
@@ -51,6 +51,34 @@ header nav a {
 
 .thirdButton a{
     background: #FFCD69;
+}
+
+#headerPicAndWords{
+    display: inline-block;
+    margin: 0 5%;
+    text-align: center;
+}
+
+#headerPicAndWords img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+}
+
+/*@font-face{
+    font-family: chelseaMarket;
+    src: url(https://fonts.google.com/specimen/chelsea+market#standard-styles);
+}*/
+
+#firstLine{
+    font-size: 10rem;
+    font-family: chelseaMarket;
+}
+
+#footerImage img{
+    height: 30rem;
+    width: 100%;
 }
 
 footer nav{
