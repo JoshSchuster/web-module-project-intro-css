@@ -19,3 +19,8 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+html{
+    /*change back to 62.5% once rems are implemented
+    font-size: 62.5%; */
+}
+
