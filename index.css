@@ -20,7 +20,36 @@ time, mark, audio, video {
 }
 
 html{
-    /*change back to 62.5% once rems are implemented
-    font-size: 62.5%; */
+    font-size: 62.5%; 
 }
 
+body{
+    font-size: 2rem;
+}
+
+header nav{
+    width:80%;
+    padding: 2rem;
+    margin:0 auto;
+}
+header nav a {
+    margin: 0 8%;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.firstButton a{
+    background: #FF764E;
+}
+
+.secondButton a{
+    background: #5ED3EB;
+}
+
+.thirdButton a{
+    background: #FFCD69;
+}
