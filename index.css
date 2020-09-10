@@ -42,6 +42,7 @@ header nav a {
     text-decoration: none;
     margin-bottom: 2rem;
     color: white;
+    word-wrap: break-word;
 }
 
 .firstButton a{
@@ -71,7 +72,16 @@ header nav a {
 
 #firstLine{
     font-size: 8rem;
-    font-family: "Chelsea Market", serif;
+    font-family: "Chelsea Market";
+}
+
+#secondLine{
+    word-spacing: 4rem;
+    margin-top: 1.5rem;
+}
+
+#thirdLine{
+    margin: 0 26% 0 38%;
 }
 
 #parkBackground{
