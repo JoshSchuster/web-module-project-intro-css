@@ -26,13 +26,13 @@ html{
 body{
     font-size: 2rem;
     word-spacing: .4rem;
-
 }
 
 #topPageButtons{
     padding: 2rem;
     margin:0 auto;
 }
+
 header nav a {
     margin: 0 10%;
     padding: 2rem;
@@ -68,14 +68,9 @@ header nav a {
     float: left;
 }
 
-/*@font-face{
-    font-family: chelseaMarket;
-    src: url(https://fonts.google.com/specimen/chelsea+market#standard-styles);
-}*/
-
 #firstLine{
     font-size: 10rem;
-    font-family: chelseaMarket;
+    font-family: 'Chelsea+Market', serif;
 }
 
 #parkBackground{
