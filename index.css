@@ -26,6 +26,7 @@ html{
 body{
     font-size: 2rem;
     word-spacing: .4rem;
+    font-family: "Roboto Mono";
 }
 
 #topPageButtons{
@@ -34,7 +35,7 @@ body{
 }
 
 header nav a {
-    margin: 0 10%;
+    margin: 0 7.5%;
     padding: 2rem;
     display: inline-block;
     border-radius: 2rem;
@@ -69,8 +70,8 @@ header nav a {
 }
 
 #firstLine{
-    font-size: 10rem;
-    font-family: 'Chelsea+Market', serif;
+    font-size: 8rem;
+    font-family: "Chelsea Market", serif;
 }
 
 #parkBackground{
@@ -78,6 +79,7 @@ header nav a {
     background: #DDB9A3;
     padding: 3rem;
     text-align: center;
+    color: white;
 }
 
 #fireRestrictions img{
@@ -90,6 +92,7 @@ header nav a {
 #fireRestrictions > p{
     text-align: center; 
     margin: 0 40% 5% 40%;
+    font-size: 1.3rem;
 }
 
 #fireRestrictions > p > span{
@@ -106,6 +109,7 @@ header nav a {
 #suggestReservations > p{
     text-align: center; 
     margin: 0 40% 5% 40%;
+    font-size: 1.3rem;
 }
 
 #suggestReservations > p > span{
@@ -124,7 +128,7 @@ footer nav{
 }
 
 footer nav a {
-    margin: 0 10%;
+    margin: 0 7.5%;
     padding: 2rem;
     display: inline-block;
     border-radius: 2rem;
