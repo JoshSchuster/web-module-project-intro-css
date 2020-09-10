@@ -97,6 +97,10 @@ header nav a {
     margin: 0 40% 5% 40%;
 }
 
+#fireRestrictions > p > span{
+    font-weight: bold;
+}
+
 #suggestReservations img{
     height: 15rem;
     width: 15rem;
@@ -107,6 +111,10 @@ header nav a {
 #suggestReservations > p{
     text-align: center; 
     margin: 0 40% 5% 40%;
+}
+
+#suggestReservations > p > span{
+    font-weight: bold;
 }
 
 #footerImage img{
