@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    font-size: 2rem;
+    word-spacing: .4rem;
+    font-family: "Roboto Mono";
+}
+
+#topPageButtons{
+    padding: 2rem;
+    margin:0 auto;
+}
+
+header nav a {
+    margin: 0 7.5%;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    color: white;
+    word-wrap: break-word;
+}
+
+.firstButton a{
+    background: #FF764E;
+}
+
+.secondButton a{
+    background: #5ED3EB;
+}
+
+.thirdButton a{
+    background: #FFCD69;
+}
+
+#headerPicAndWords{
+    display: inline-block;
+    margin: 0 5%;
+    text-align: center;
+}
+
+#headerPicAndWords img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+}
+
+#firstLine{
+    font-size: 8rem;
+    font-family: "Chelsea Market";
+}
+
+#secondLine{
+    word-spacing: 4rem;
+    margin-top: 1.5rem;
+}
+
+#thirdLine{
+    margin: 0 26% 0 38%;
+}
+
+#parkBackground{
+    margin: 2.5% 2.5%;
+    background: #DDB9A3;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+#fireRestrictions img{
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin: auto auto;
+}
+
+#fireRestrictions > p{
+    text-align: center; 
+    margin: 0 40% 5% 40%;
+    font-size: 1.3rem;
+}
+
+#fireRestrictions > p > span{
+    font-weight: bold;
+}
+
+#suggestReservations img{
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin: auto auto;
+}
+
+#suggestReservations > p{
+    text-align: center; 
+    margin: 0 40% 5% 40%;
+    font-size: 1.3rem;
+}
+
+#suggestReservations > p > span{
+    font-weight: bold;
+}
+
+#footerImage img{
+    height: 30rem;
+    width: 100%;
+}
+
+footer nav{
+    padding: 2rem;
+    margin:0 auto;
+    background: #F9E7DC;
+}
+
+footer nav a {
+    margin: 0 7.5%;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    color: white;
+}
